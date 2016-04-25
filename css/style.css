@@ -1,5 +1,5 @@
 body {
-  font-family: "Myriad Pro Regular", "PT Sans Narrow Bold", sans-serif;
+  font-family: "Myriad Pro Regular", "PT Sans Narrow", sans-serif;
 	font-size: 30px;
 	font-style: bold;
 	line-height: 42px;
@@ -7,13 +7,13 @@ body {
 }
 
 h1 {
-	font-family: "Myriad Pro Regular", "PT Sans Narrow Bold", sans-serif;
+	font-family: "Myriad Pro Regular", "PT Sans Narrow", sans-serif;
 	font-size: 30px;
 	line-height: 42px;
 	
 }
 h2 {
-  font-family: "Myriad Pro Regular", "PT Sans Narrow Bold" sans-serif; 
+  font-family: "Myriad Pro Regular", "PT Sans Narrow" sans-serif; 
 	font-size: 14px;
 	line-height: 24px;
 	
