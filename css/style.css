@@ -1,17 +1,165 @@
+
 body {
   font-family: "Myriad Pro Regular", "PT Sans Narrow", sans-serif;
-	font-size: 30px;
-	font-style: bold;
-	line-height: 42px;
-	color: black; 
+  min-width: 1200px;
+  min-height: 2250px;
+}
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.container {
+width: 940px
+margin: 0 auto
+padding: 0 10px;
+}
+.main-header{
+margin-bottom: 60px;
+background-color: #f64f4f;
 }
 
+
+.main-navigation {
+width: 780px;
+margin: 0 auto;
+padding: 0 10px;
+background-color: #4ff6e4;
+}
+.user-block {
+float: right;
+width: 140px;
+background-color: #a6f64f;
+margin-top: -35px;
+}
 h1 {
-	font-size: 30px;
-	line-height: 42px;
-	
+font-size: 30px;
+line-height: 42px;
+background-color: #f6964f;	
+margin-left: 130px;
+margin-right: 130px
+}
+
+.breadcrumbs {
+ background-color: #f682f2;
+ padding-left: 10px;
+ padding-right: 10px;
+ margin-left: 130px;
+ margin-right: 130px;
+}
+.filters {
+ background-color: #f6d982;
+ width: 230px;
+ min-height: 729px;
+ margin-left: 130px;
+ padding-right: 20px;
+ padding-left: 20px;
 }
 h2 {
 	font-size: 14px;
 	line-height: 24px;
+	background-color: #5c6c93;
+}
+
+h3 {
+	font-size: 14px;
+    line-height: 18px;
+    background-color: #1f8177;
+}
+.catalog {
+ min-height: 596px;
+ width: 700px;
+ float: right;
+ margin-top: -750px;
+ margin-right: 410px;
+ padding-right: 20px;
+ padding-left: 20px;
+}
+.goods {
+ min-height: 718px;
+ width: 940px;
+ margin-left: 130px;
+ margin-right: 130px;
+}
+
+.item {
+ background-color: #cdbfd6;
+ display: inline-block;
+ float: right;
+ width: 220px;
+ height: 293px;
+ margin-right: 5px;
+ margin-left: 5px;
+ margin-top:5px;
+ margin-bottom: 5px;
+ padding: 5 0px;
+}
+.item-page {
+width: 460px;
+min-height: 668px;
+margin-top: 20px;
+
+}
+.available {
+width: 160px;
+min-height: 62px;
+float: right;
+margin-top: -800px;
+margin-right: 650px;
+
+}
+.code{
+min-width: 140px;
+min-height: 62px;
+float: right;
+margin-top: -800px;
+margin-right: 130px;
+}
+
+.description {
+width: 390px;
+min-height: 170px;
+float: right;
+margin-top: -700px;
+margin-right: 420px;
+}
+.buy-block {
+float: right;
+width: 187px;
+min-height: 43px;
+margin-top: -500px;
+margin-right: 600px;
+}
+.content {
+float: right;
+width: 240px;
+min-height: 220px;
+margin-top: -400px;
+margin-right: 570px; 
+}
+.main-footer {
+min-height: 188px;
+margin-top: 65px;
+padding-top: 60px;
+padding-bottom: 40px;
+background-color: #87881d;
+}
+.footer-contacts {
+	float: left;	
+	width: 320px;
+	margin-right: 60px;
+	background-color: #1d8839;
+
+}
+.footer-social {
+   float: left;
+   width: 180px;
+   background-color: #5618f3;
+
+}
+.footer-copyright {
+   float: right;
+   width: 180px;
+   background-color: #c2b7df;
+
 }
